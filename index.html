@@ -15,28 +15,111 @@
     <meta name="language" content="English">
 </head>
 
-<body class="bg-black">
-    <section class="body-font h-screen w-screen relative">
-        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-            <div class="flex flex-col px-5 py-24 justify-center items-center ">
-                <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero"
-                    src="/imgs/logo.png">
-                <div class="w-full md:w-2/3 flex flex-col mb-16 items-center text-center">
-                    <h1 class="title-font sm:text-2xl mb-4 font-medium text-gray-100">Best deals for your
-                        favorite
-                        luxury brands</h1>
-                    <p class="mb-8 leading-relaxed text-gray-600 ">Alamoda is an online retailer that brings the world’s
-                        most luxurious
-                        designer brands to its clients at discounts of up to 80% off retail. All our items are new and
-                        authentic.
-                    </p>
+<body>
+    <!-- Hero -->
+    <section class="h-screen bg-black">
+        <div class="h-2/6 relative">
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                <img class="h-24 mx-auto mb-4" alt="alamoda logo" src="/imgs/logo.png">
+                <h1 class="mb-4 text-2xl text-gray-300 text-center tracking-widest">
+                    Best deals for your
+                    favorite
+                    luxury brands
+                </h1>
+                <div class="flex justify-center">
                     <a href="https://www.instagram.com/alamodainc/"
-                        class="inline-flex text-black font-bold bg-white py-2 px-6 hover:bg-gray-300 rounded-lg text-lg">SHOP
-                        NOW</a>
+                        class="inline-block hover:bg-gray-100 active:bg-gray-200 focus-visible:ring ring-indigo-300 border text-white text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-4 md:px-8 py-2 md:py-3">
+                        SHOP NOW
+                    </a>
+                </div>
 
+            </div>
+
+        </div>
+        <div class="h-4/6 w-full w-1/5 mx-auto">
+            <img class="object-cover object-top h-full w-full" alt="Sardine Handbag by Bottega Veneta"
+                src="/imgs/hero.png">
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="h-screen bg-white ">
+        <div class="py-6 sm:py-8 lg:py-12">
+            <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
+                <h2 class="text-gray-800 text-2xl lg:text-3xl font-bold text-center mb-4 md:mb-8 xl:mb-12">
+                    PHOTO GALLERY
+                </h2>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-4 mb-4 md:mb-8">
+                    <div
+                        class="group aspect-auto h-64 md:h-96 flex items-end bg-gray-100 overflow-hidden rounded-lg shadow-lg relative">
+                        <img src="imgs/gallery/1.jpg" loading="lazy" alt="TODO"
+                            class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+
+                        <div
+                            class="bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50 absolute inset-0 pointer-events-none">
+                        </div>
+                    </div>
+                    <div
+                        class="group aspect-auto h-64 md:h-96 flex items-end bg-gray-100 overflow-hidden rounded-lg shadow-lg relative">
+                        <img src="imgs/gallery/2.jpg" loading="lazy" alt="TODO"
+                            class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+
+                        <div
+                            class="bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50 absolute inset-0 pointer-events-none">
+                        </div>
+                    </div>
+                    <div
+                        class="group aspect-auto h-64 md:h-96 flex items-end bg-gray-100 overflow-hidden rounded-lg shadow-lg relative">
+                        <img src="imgs/gallery/3.jpg" loading="lazy" alt="TODO"
+                            class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+
+                        <div
+                            class="bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50 absolute inset-0 pointer-events-none">
+                        </div>
+                    </div>
+                    <div
+                        class="group aspect-auto h-64 md:h-96 flex items-end bg-gray-100 overflow-hidden rounded-lg shadow-lg relative">
+                        <img src="imgs/gallery/4.jpg" loading="lazy" alt="TODO"
+                            class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+
+                        <div
+                            class="bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50 absolute inset-0 pointer-events-none">
+                        </div>
+                    </div>
+                    <div
+                        class="group aspect-auto wh-64 md:h-96 flex items-end bg-gray-100 overflow-hidden rounded-lg shadow-lg relative">
+                        <img src="imgs/gallery/5.jpg" loading="lazy" alt="TODO"
+                            class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+
+                        <div
+                            class="bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50 absolute inset-0 pointer-events-none">
+                        </div>
+                    </div>
+                    <div
+                        class="group aspect-auto h-64 md:h-96 flex items-end bg-gray-100 overflow-hidden rounded-lg shadow-lg relative">
+                        <img src="imgs/gallery/6.jpg" loading="lazy" alt="TODO"
+                            class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+
+                        <div
+                            class="bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50 absolute inset-0 pointer-events-none">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-between items-start sm:items-center gap-8">
+                    <p class="max-w-screen-sm text-gray-500 text-sm lg:text-base">
+                        We exclusively work with the best boutiques and designers across Europe and the US that are
+                        authorized sellers of the luxury brands we carry. By closely working with these leading industry
+                        players, we guarantee our clients the same standards of authenticity as the world's top
+                        boutiques.
+                    </p>
+
+                    <a href="https://www.instagram.com/alamodainc/"
+                        class="inline-block bg-white hover:bg-gray-100 active:bg-gray-200 focus-visible:ring ring-indigo-300 border text-gray-500 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-4 md:px-8 py-2 md:py-3">More</a>
                 </div>
             </div>
         </div>
+    </section>
 </body>
 
 </html>
